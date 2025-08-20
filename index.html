@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ringkasan: Bahasa Pemrograman — Pengertian, Fungsi, Tingkat, dan Macamnya</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #121521;
+      --text: #e7eaf0;
+      --muted: #9aa3b2;
+      --accent: #7aa2ff;
+      --border: #253049;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 980px; margin: 48px auto; padding: 0 20px; }
+    header { margin-bottom: 28px; }
+    h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.15; margin: 0 0 10px; }
+    .subtitle { color: var(--muted); font-size: clamp(14px, 2.5vw, 18px); }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)); border: 1px solid var(--border); border-radius: 20px; padding: 22px; margin: 18px 0; box-shadow: 0 6px 24px rgba(0,0,0,0.25); }
+    .card h2 { margin-top: 0; font-size: clamp(20px, 3vw, 28px); }
+    p { line-height: 1.7; font-size: 16.5px; margin: 10px 0 0; }
+    ul { margin: 10px 0 0 18px; line-height: 1.7; }
+    li { margin: 6px 0; }
+    .grid-2 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 800px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+    .table-wrap { overflow-x: auto; border-radius: 14px; border: 1px solid var(--border); margin-top: 14px; }
+    table { width: 100%; border-collapse: collapse; min-width: 680px; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid var(--border); text-align: left; }
+    th { background: #161a27; font-weight: 650; }
+    tr:hover td { background: rgba(122,162,255,0.05); }
+    .badge { display: inline-block; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; font-size: 12px; color: var(--muted); margin-right: 8px; }
+    .footer { color: var(--muted); font-size: 13px; margin-top: 26px; text-align: center; }
+    @media print {
+      :root { --bg: #ffffff; --card: #ffffff; --text: #000000; --muted: #333; --border: #ddd; --accent: #1a56db; }
+      body { background: #fff; }
+      .card { box-shadow: none; }
+      a { text-decoration: underline; }
+      .wrap { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Bahasa Pemrograman — Pengertian, Fungsi, Tingkat, dan Macamnya</h1>
+      <div class="subtitle">Ringkasan singkat dan rapi dari topik inti untuk belajar cepat.</div>
+      <div style="margin-top:12px;">
+        <span class="badge">Pemula Ramah</span>
+        <span class="badge">Rangkuman Materi</span>
+        <span class="badge">Cetak Siap</span>
+      </div>
+    </header>
+
+    <section class="card" id="pengertian">
+      <h2>1) Pengertian</h2>
+      <p>
+        Bahasa pemrograman adalah kumpulan instruksi dan aturan (sintaks dan semantik) yang digunakan programmer untuk berkomunikasi dengan komputer agar komputer menjalankan suatu tugas atau program.
+        Melalui kode, logika manusia diterjemahkan menjadi langkah-langkah yang dapat diproses mesin.
+      </p>
+    </section>
+
+    <section class="card" id="fungsi">
+      <h2>2) Fungsi</h2>
+      <ul>
+        <li><strong>Jembatan komunikasi</strong> antara manusia dan komputer: perintah ditulis dalam bahasa pemrograman, kemudian dijalankan melalui <em>compiler</em> atau <em>interpreter</em>.</li>
+        <li><strong>Mengembangkan perangkat lunak</strong>: dari sistem operasi, aplikasi web dan seluler, gim, hingga perangkat embedded.</li>
+        <li><strong>Otomasi & pengolahan data</strong>: mengeksekusi algoritma, memproses data, dan mengotomatisasi tugas berulang secara efisien.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="tingkatan">
+      <h2>3) Tingkatan Bahasa Pemrograman</h2>
+      <div class="grid-2">
+        <div>
+          <h3 style="margin-top:0">a. Tingkat Rendah (Low‑Level)</h3>
+          <ul>
+            <li><strong>Bahasa Mesin</strong>: kode biner (0 dan 1) yang langsung dipahami CPU; sangat cepat tetapi sulit dibaca manusia.</li>
+            <li><strong>Assembly</strong>: menggunakan mnemonik (misal: <code>MOV</code>, <code>ADD</code>, <code>SUB</code>), diterjemahkan ke bahasa mesin oleh <em>assembler</em>; lebih mudah dari biner namun tetap dekat ke perangkat keras.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="margin-top:0">b. Tingkat Menengah (Intermediate)</h3>
+          <ul>
+            <li>Menjembatani bahasa rendah dan tinggi: sintaks lebih nyaman, tetap memberi kontrol ke hardware.</li>
+            <li>Contoh umum: <strong>C</strong>, <strong>C++</strong>, <strong>C#</strong>.</li>
+          </ul>
+          <h3>c. Tingkat Tinggi (High‑Level)</h3>
+          <ul>
+            <li>Mendekati bahasa manusia, produktif, dan lebih mudah dibaca/ditulis.</li>
+            <li>Biasanya dijalankan melalui <em>compiler</em> atau <em>interpreter</em>.</li>
+            <li>Contoh: <strong>Python</strong>, <strong>Java</strong>, <strong>JavaScript</strong>, <strong>Ruby</strong>, <strong>PHP</strong>, <strong>Swift</strong>, <strong>Visual Basic</strong>, <strong>Perl</strong>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="jenis">
+      <h2>4) Jenis / Paradigma</h2>
+      <div class="grid-2">
+        <div>
+          <h3 style="margin-top:0">a. Prosedural</h3>
+          <p>Program dibagi menjadi prosedur/fungsi yang dieksekusi berurutan.</p>
+          <p><em>Contoh:</em> BASIC, Pascal, FORTRAN.</p>
+        </div>
+        <div>
+          <h3 style="margin-top:0">b. Berorientasi Objek (OOP)</h3>
+          <p>Program dimodelkan sebagai kumpulan objek yang memiliki atribut dan metode.</p>
+          <p><em>Contoh:</em> Java, Python, Ruby, PHP.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="contoh">
+      <h2>5) Contoh Bahasa Pemrograman Populer</h2>
+      <p>Daftar ringkas bahasa yang banyak digunakan dalam berbagai kebutuhan:</p>
+      <ul>
+        <li>Python, Java, JavaScript</li>
+        <li>PHP, C++, C#</li>
+        <li>Swift, Ruby, Go</li>
+        <li>SQL (untuk pengelolaan basis data)</li>
+      </ul>
+    </section>
+
+    <section class="card" id="tabel">
+      <h2>6) Tabel Ringkasan</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Aspek</th>
+              <th>Penjelasan Singkat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Pengertian</strong></td>
+              <td>Instruksi untuk komputer dari manusia melalui kode.</td>
+            </tr>
+            <tr>
+              <td><strong>Fungsi</strong></td>
+              <td>Komunikasi manusia–mesin, pengembangan software, otomasi & pengolahan data.</td>
+            </tr>
+            <tr>
+              <td><strong>Tingkatan</strong></td>
+              <td>Low‑Level (mesin/assembly), Intermediate (C/C++/C#), High‑Level (Python, Java, dll.).</td>
+            </tr>
+            <tr>
+              <td><strong>Paradigma</strong></td>
+              <td>Prosedural (BASIC, Pascal), OOP (Java, Python, Ruby, PHP).</td>
+            </tr>
+            <tr>
+              <td><strong>Contoh Populer</strong></td>
+              <td>Python, Java, JavaScript, PHP, C++, C#, Swift, Ruby, Go, SQL.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="footer">© 2025 — Ringkasan disusun untuk tujuan belajar. Kamu bebas menyalin, mencetak, atau mengubah sesuai kebutuhan.</p>
+  </div>
+</body>
+</html>
